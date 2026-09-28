@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Controls_comp_v2.kicad_pro",
+    "filename": "Comp_Controls_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -408,6 +408,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "be7d7350-1996-4757-b5dc-2a80f377957f",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
