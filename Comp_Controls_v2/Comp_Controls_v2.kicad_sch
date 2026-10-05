@@ -5,7 +5,7 @@
 	(uuid "be7d7350-1996-4757-b5dc-2a80f377957f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "3-PinConnector:B3B-XH-A"
+		(symbol "B3B-XH-A:B3B-XH-A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -261,32 +261,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "4-PinConnector:B4B-XH-A"
+		(symbol "B4B-XH-A:B4B-XH-A"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ANEMOMETER1"
-				(at 13.97 -2.5399 0)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "B4B-XH-A"
-				(at 13.97 -5.0799 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "ElectronicsFootprints:B4B-XH-A"
+			(property "Footprint" "CONN_B4B-XH-A_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -608,620 +606,6 @@
 				)
 			)
 			(symbol "B4B-XH-A_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "B4B-XH-A_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "3.3v_extra1"
-				(at 13.97 -2.5399 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "B4B-XH-A"
-				(at 13.97 -5.0799 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ElectronicsFootprints:B4B-XH-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "B4B-XH-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "B4B-XH-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_B4B-XH-A_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B4B-XH-A_1_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "B4B-XH-A_1_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -10.16)
@@ -2421,369 +1805,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Teensy:DEV-15583"
+		(symbol "DEV-15583:DEV-15583"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3475,7 +2497,286 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TeensyConnector:M20-7832046"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "M20-7832046:M20-7832046"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4783,20 +4084,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VectorNav2:Xbee_pro_s3b"
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4812,7 +4116,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4821,7 +4125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4830,14 +4134,30 @@
 					(hide yes)
 				)
 			)
-			(symbol "Xbee_pro_s3b_0_1"
-				(polyline
-					(pts
-						(xy -19.05 3.81) (xy -19.05 -34.29) (xy 19.05 -34.29) (xy 19.05 3.81) (xy 12.7 11.43) (xy -12.7 11.43)
-						(xy -19.05 3.81)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -4845,378 +4165,16 @@
 					)
 				)
 			)
-			(symbol "Xbee_pro_s3b_1_1"
-				(pin power_in line
-					(at -21.59 2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -1.27 0)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -5.08 0)
-					(length 2.54)
-					(name "DIN/CONFIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -8.89 0)
-					(length 2.54)
-					(name "DIO12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -12.7 0)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -16.51 0)
-					(length 2.54)
-					(name "PWM0/RSSI/DIO10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -20.32 0)
-					(length 2.54)
-					(name "DIO11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -24.13 0)
-					(length 2.54)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -21.59 -27.94 0)
-					(length 2.54)
-					(name "DET/SLEEP_RQ/DIO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -21.59 -31.75 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 2.54 180)
-					(length 2.54)
-					(name "AD0/DIO0/CMSN_BTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -1.27 180)
-					(length 2.54)
-					(name "AD1/DIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -5.08 180)
-					(length 2.54)
-					(name "AD2/DIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -8.89 180)
-					(length 2.54)
-					(name "AD3/DIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -12.7 180)
-					(length 2.54)
-					(name "RTS/DIO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -16.51 180)
-					(length 2.54)
-					(name "ASC/DIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -20.32 180)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -24.13 180)
-					(length 2.54)
-					(name "ON/SLEEP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -27.94 180)
-					(length 2.54)
-					(name "CTS/DIO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -31.75 180)
-					(length 2.54)
-					(name "DIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 			(embedded_fonts no)
 		)
-		(symbol "VectorNav2:max3323eepe+"
+		(symbol "max3323eepe+:max3323eepe+"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "StepDownChip1"
+			(property "Reference" "U"
 				(at 25.4 10.16 0)
 				(effects
 					(font
@@ -5232,7 +4190,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ElectronicsFootprints:MAX3323EEPE+"
+			(property "Footprint" "21-0043_P16+3_MXM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6374,6 +5332,432 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "xbee_pro_s3b:Xbee_pro_s3b"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Xbee_pro_s3b_0_1"
+				(polyline
+					(pts
+						(xy -19.05 3.81) (xy -19.05 -34.29) (xy 19.05 -34.29) (xy 19.05 3.81) (xy 12.7 11.43) (xy -12.7 11.43)
+						(xy -19.05 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Xbee_pro_s3b_1_1"
+				(pin power_in line
+					(at -21.59 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -1.27 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -5.08 0)
+					(length 2.54)
+					(name "DIN/CONFIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -8.89 0)
+					(length 2.54)
+					(name "DIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -12.7 0)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -16.51 0)
+					(length 2.54)
+					(name "PWM0/RSSI/DIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -20.32 0)
+					(length 2.54)
+					(name "DIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -24.13 0)
+					(length 2.54)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -27.94 0)
+					(length 2.54)
+					(name "DET/SLEEP_RQ/DIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -21.59 -31.75 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 2.54 180)
+					(length 2.54)
+					(name "AD0/DIO0/CMSN_BTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -1.27 180)
+					(length 2.54)
+					(name "AD1/DIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -5.08 180)
+					(length 2.54)
+					(name "AD2/DIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -8.89 180)
+					(length 2.54)
+					(name "AD3/DIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -12.7 180)
+					(length 2.54)
+					(name "RTS/DIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -16.51 180)
+					(length 2.54)
+					(name "ASC/DIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -20.32 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -24.13 180)
+					(length 2.54)
+					(name "ON/SLEEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -27.94 180)
+					(length 2.54)
+					(name "CTS/DIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -31.75 180)
+					(length 2.54)
+					(name "DIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 154.94 54.61)
@@ -6476,12 +5860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6764794f-b035-430c-80e3-7ee11f75c7fd")
-	)
-	(junction
-		(at 177.8 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f4f7836-0849-4fc5-b001-42990da23b38")
 	)
 	(junction
 		(at 256.54 33.02)
@@ -7550,16 +6928,6 @@
 			(type default)
 		)
 		(uuid "bfed970f-141b-482a-9701-94d12d6911fd")
-	)
-	(wire
-		(pts
-			(xy 177.8 80.01) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17fcada-5b52-4a1e-90fa-a35d4bd8c495")
 	)
 	(wire
 		(pts
@@ -9396,11 +8764,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Teensy:DEV-15583")
+		(lib_id "DEV-15583:DEV-15583")
 		(at 125.73 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9421,7 +8789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:MODULE_DEV-15583"
+		(property "Footprint" "Comp_Controls_v2:MODULE_DEV-15583"
 			(at 125.73 163.83 0)
 			(effects
 				(font
@@ -9682,7 +9050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_EEE1A_1000uf"
+		(property "Footprint" "Comp_Controls_v2:CAP_EEE1A_1000uf"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -10015,7 +9383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 176.8348 54.61 0)
 			(effects
 				(font
@@ -10413,7 +9781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_EEE1A_1000uf"
+		(property "Footprint" "Comp_Controls_v2:CAP_EEE1A_1000uf"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -10480,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_87510_220uf"
+		(property "Footprint" "Comp_Controls_v2:CAP_87510_220uf"
 			(at 170.18 30.48 0)
 			(effects
 				(font
@@ -10877,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 53.34 30.7848 0)
 			(effects
 				(font
@@ -11197,11 +10565,11 @@
 		)
 	)
 	(symbol
-		(lib_id "3-PinConnector:B3B-XH-A")
+		(lib_id "B3B-XH-A:B3B-XH-A")
 		(at 264.16 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11224,7 +10592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B3B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B3B-XH-A"
 			(at 264.16 80.01 0)
 			(effects
 				(font
@@ -11469,7 +10837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 39.0652 104.14 0)
 			(effects
 				(font
@@ -11577,11 +10945,11 @@
 		)
 	)
 	(symbol
-		(lib_id "3-PinConnector:B3B-XH-A")
+		(lib_id "B3B-XH-A:B3B-XH-A")
 		(at 264.16 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11604,7 +10972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B3B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B3B-XH-A"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -11757,11 +11125,11 @@
 		)
 	)
 	(symbol
-		(lib_id "3-PinConnector:B3B-XH-A")
+		(lib_id "B3B-XH-A:B3B-XH-A")
 		(at 264.16 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11784,7 +11152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B3B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B3B-XH-A"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -11897,7 +11265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 244.8052 82.55 0)
 			(effects
 				(font
@@ -12162,7 +11530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 35.2552 35.56 0)
 			(effects
 				(font
@@ -12299,7 +11667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL32A_22uf_1210"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL32A_22uf_1210"
 			(at 161.5948 54.61 0)
 			(effects
 				(font
@@ -12368,7 +11736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 27.6352 52.07 0)
 			(effects
 				(font
@@ -12809,11 +12177,11 @@
 		)
 	)
 	(symbol
-		(lib_id "3-PinConnector:B3B-XH-A")
+		(lib_id "B3B-XH-A:B3B-XH-A")
 		(at 264.16 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12836,7 +12204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B3B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B3B-XH-A"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -13017,7 +12385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_EEE1A_1000uf"
+		(property "Footprint" "Comp_Controls_v2:CAP_EEE1A_1000uf"
 			(at 129.54 58.42 0)
 			(effects
 				(font
@@ -13125,11 +12493,11 @@
 		)
 	)
 	(symbol
-		(lib_id "VectorNav2:Xbee_pro_s3b")
+		(lib_id "xbee_pro_s3b:Xbee_pro_s3b")
 		(at 87.63 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8655a4-1e6e-462b-875a-4c6aff64dd4a")
@@ -13150,7 +12518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:XBee"
+		(property "Footprint" "Comp_Controls_v2:XBee"
 			(at 87.63 87.63 0)
 			(effects
 				(font
@@ -13337,7 +12705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 240.9952 68.58 0)
 			(effects
 				(font
@@ -13474,7 +12842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL32A_22uf_1210"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL32A_22uf_1210"
 			(at 161.5948 80.01 0)
 			(effects
 				(font
@@ -13749,7 +13117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 239.7252 135.89 0)
 			(effects
 				(font
@@ -14344,7 +13712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 139.3952 34.29 0)
 			(effects
 				(font
@@ -14413,7 +13781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 239.7252 100.33 0)
 			(effects
 				(font
@@ -14548,7 +13916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 242.2652 157.48 0)
 			(effects
 				(font
@@ -14817,11 +14185,11 @@
 		)
 	)
 	(symbol
-		(lib_id "4-PinConnector:B4B-XH-A")
+		(lib_id "B4B-XH-A:B4B-XH-A")
 		(at 254 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14844,7 +14212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B4B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B4B-XH-A"
 			(at 254 128.27 0)
 			(effects
 				(font
@@ -14986,7 +14354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_C3225_47uf_1210"
+		(property "Footprint" "Comp_Controls_v2:CAP_C3225_47uf_1210"
 			(at 45.4152 104.14 0)
 			(effects
 				(font
@@ -15053,7 +14421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL21A_10uf_0805"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL21A_10uf_0805"
 			(at 154.6352 34.29 0)
 			(effects
 				(font
@@ -15122,7 +14490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 155.2448 140.97 0)
 			(effects
 				(font
@@ -15189,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 21.59 37.7952 0)
 			(effects
 				(font
@@ -15325,7 +14693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 246.0752 53.34 0)
 			(effects
 				(font
@@ -15368,11 +14736,11 @@
 		)
 	)
 	(symbol
-		(lib_id "VectorNav2:max3323eepe+")
+		(lib_id "max3323eepe+:max3323eepe+")
 		(at 55.88 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15393,7 +14761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:MAX3323EEPE+"
+		(property "Footprint" "Comp_Controls_v2:MAX3323EEPE+"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -15507,7 +14875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "Comp_Controls_v2:CAP_CL10B_01uf_0603"
 			(at 176.8348 80.01 0)
 			(effects
 				(font
@@ -15747,11 +15115,11 @@
 		)
 	)
 	(symbol
-		(lib_id "TeensyConnector:M20-7832046")
+		(lib_id "M20-7832046:M20-7832046")
 		(at 41.91 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15772,7 +15140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:HARWIN_M20-7832046"
+		(property "Footprint" "Comp_Controls_v2:HARWIN_M20-7832046"
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15997,7 +15365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_EEE1A_1000uf"
+		(property "Footprint" "Comp_Controls_v2:CAP_EEE1A_1000uf"
 			(at 146.05 58.42 0)
 			(effects
 				(font
@@ -16171,12 +15539,11 @@
 		)
 	)
 	(symbol
-		(lib_name "B4B-XH-A_1")
-		(lib_id "4-PinConnector:B4B-XH-A")
+		(lib_id "B4B-XH-A:B4B-XH-A")
 		(at 254 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16199,7 +15566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:B4B-XH-A"
+		(property "Footprint" "Comp_Controls_v2:B4B-XH-A"
 			(at 254 149.86 0)
 			(effects
 				(font
