@@ -11147,6 +11147,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd1fe3b-dc7a-44c8-936f-52f507f46bd9")
+		(property "Reference" "H4"
+			(at 199.39 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Comp_Controls_v2"
+				(path "/be7d7350-1996-4757-b5dc-2a80f377957f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 243.84 78.74 0)
 		(unit 1)
@@ -11837,7 +11901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "3.3v_LED"
 			(at 190.1825 87.63 0)
 			(effects
 				(font
@@ -14658,7 +14722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7dfeb24-2bc7-485f-ab98-a91bb84d30be")
-		(property "Reference" "D1"
+		(property "Reference" "5v_LED"
 			(at 190.1825 76.2 0)
 			(effects
 				(font
@@ -14667,7 +14731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "5v_LED"
 			(at 190.1825 78.74 0)
 			(effects
 				(font
@@ -14720,7 +14784,7 @@
 		(instances
 			(project "Comp_Controls_v2"
 				(path "/be7d7350-1996-4757-b5dc-2a80f377957f"
-					(reference "D1")
+					(reference "5v_LED")
 					(unit 1)
 				)
 			)
