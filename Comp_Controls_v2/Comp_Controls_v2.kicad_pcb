@@ -18256,7 +18256,7 @@
 	(zone
 		(net 2)
 		(net_name "GND")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "cee45d0b-a30f-4049-ba6a-4cec000b3a98")
 		(hatch edge 0.5)
 		(connect_pads
