@@ -14261,14 +14261,6 @@
 		(uuid "46c90b94-3cca-426a-8dc4-70c87c00410d")
 	)
 	(segment
-		(start 121.28 66.57)
-		(end 121.25 66.6)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "48fc21f8-b4a4-4ce4-8a39-0ab78c32c72d")
-	)
-	(segment
 		(start 125.98 77.16)
 		(end 129.38 80.56)
 		(width 0.5)
@@ -14355,14 +14347,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9a4af5a1-e449-4d49-8014-c9a679e92014")
-	)
-	(segment
-		(start 181.16 55.66)
-		(end 181.2 55.7)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "a1cb1b1a-f3e0-49aa-a8d1-33793a5f4e77")
 	)
 	(segment
 		(start 181.16 46.74)
@@ -17805,7 +17789,7 @@
 		(net 1)
 		(net_name "+3.3V_SYS")
 		(layer "B.Cu")
-		(uuid "2af8ac7f-8ccc-4394-b93a-ca9903666982")
+		(uuid "3ab92133-aa0f-4d23-add9-49a12b3bea77")
 		(hatch edge 0.5)
 		(priority 2)
 		(connect_pads
@@ -17819,8 +17803,73 @@
 		)
 		(polygon
 			(pts
-				(xy 120.5 61.5) (xy 128.5 61.5) (xy 128.5 71.5) (xy 137 71.5) (xy 137 99) (xy 172 99) (xy 172.5 41.5)
-				(xy 185 41.5) (xy 185 137) (xy 121.5 137)
+				(xy 173 41.5) (xy 185 41.5) (xy 185 63) (xy 173 63.1)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "+3.3V_SYS")
+		(layer "B.Cu")
+		(uuid "3c941939-1739-43fc-88fc-1ee154e4d40c")
+		(hatch edge 0.5)
+		(priority 4)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 123 71.5) (xy 136.5 71.5) (xy 136.5 98) (xy 123 98)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "+3.3V_SYS")
+		(layer "B.Cu")
+		(uuid "58ec576a-ca23-43ee-8eeb-28d411ee9ded")
+		(hatch edge 0.5)
+		(priority 3)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 145 104) (xy 184 104) (xy 184 130) (xy 145 130)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+5V_SYS1")
+		(layer "B.Cu")
+		(uuid "91bf377f-04d7-4d02-85d2-dc7aa86d078b")
+		(hatch edge 0.5)
+		(priority 5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 172 95) (xy 190 95) (xy 190 63.6) (xy 172 63.6)
 			)
 		)
 	)
@@ -17842,7 +17891,7 @@
 		)
 		(polygon
 			(pts
-				(xy 122.5 41.5) (xy 122.5 61) (xy 129 61) (xy 129 70.5) (xy 172 70.5) (xy 172 41.5)
+				(xy 122.5 41.5) (xy 122.5 61) (xy 129 61) (xy 129 70.5) (xy 171.5 70.5) (xy 171.5 41.5)
 			)
 		)
 	)
