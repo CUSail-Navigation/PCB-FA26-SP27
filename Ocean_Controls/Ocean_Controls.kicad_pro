@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "B6B-XH-A"
+    ]
   },
   "meta": {
     "filename": "Ocean_Controls.kicad_pro",
