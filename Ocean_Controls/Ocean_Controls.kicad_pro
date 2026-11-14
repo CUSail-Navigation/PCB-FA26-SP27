@@ -447,9 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Ocean_Controls"
+    ],
     "pinned_symbol_libs": [
-      "B6B-XH-A"
+      "B6B-XH-A",
+      "Cytron_MD13S"
     ]
   },
   "meta": {
@@ -599,6 +602,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
