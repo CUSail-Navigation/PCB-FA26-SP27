@@ -2067,24 +2067,6 @@
 			)
 			(symbol "DE9_Socket_MountingHoles_1_1"
 				(pin passive line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 10.16 0)
 					(length 3.81)
 					(name "1"
@@ -2239,6 +2221,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16479,7 +16479,7 @@
 				)
 			)
 		)
-		(pin "0"
+		(pin "SH"
 			(uuid "c453cb57-15c4-499f-b526-a4af8ee49545")
 		)
 		(pin "1"
